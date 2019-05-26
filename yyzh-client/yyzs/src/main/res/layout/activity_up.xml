@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical"
+    tools:context="com.qc.yyzs.activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#33456456">
+
+        <ImageView
+            android:id="@+id/up_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/back"/>
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="意见反馈"
+            android:textSize="20dp"
+            android:layout_gravity="center"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_margin="10dp"
+        android:background="#a24a84"
+        android:text="     非常感谢您的参与，我们的进步与发展，离不开您的支持！请详细发表您的意见或建议、我们会即使回复您。"/>
+
+
+    <EditText
+        android:id="@+id/up_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:focusable="true"
+       android:hint="请输入"
+        android:background="#a24a84"
+        android:minLines="8"
+        android:layout_margin="10dp"
+        android:gravity="top"/>
+
+
+
+    <Button
+        android:id="@+id/up_button"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="提交"
+        android:textColor="#e3f2eb"
+        android:background="#456456"/>
+
+</LinearLayout>

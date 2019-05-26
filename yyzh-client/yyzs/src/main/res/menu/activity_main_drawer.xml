@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="huanbei"-->
+            <!--android:actionLayout="@layout/openorclose"-->
+            <!--/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="Gallery"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Slideshow"/>-->
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools"/>-->
+    <!--</group>-->
+
+    <item android:title="设置">
+        <menu>
+            <item
+                android:id="@+id/check_bg"
+                android:icon="@drawable/bar115"
+                android:title="换背景"/>
+            <!--<item-->
+                <!--android:id="@+id/check_download"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="下载目录"/>-->
+            <item
+                android:id="@+id/clear"
+                android:icon="@drawable/bar117"
+                android:title="清空缓存"/>
+            <!--<item-->
+                <!--android:id="@+id/check_junhengqi"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="均衡器"/>-->
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/bar119"
+                android:title="使用说明"/>
+            <item
+                android:id="@+id/check_version"
+                android:icon="@drawable/bar120"
+                android:title="版本更新"/>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/bar123"
+                android:title="关于我们"/>
+            <item
+                android:id="@+id/up"
+                android:icon="@drawable/bar124"
+                android:title="意见反馈"/>
+
+
+        </menu>
+    </item>
+
+</menu>
